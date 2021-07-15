@@ -1,6 +1,4 @@
 <script>
-	import { cubicOut } from 'svelte/easing';
-
 	import { slide, crossfade } from 'svelte/transition';
 	let current = 0;
 	export let runAnimation;
